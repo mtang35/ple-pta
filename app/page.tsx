@@ -8,7 +8,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-3">
-              <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-blue-600">
+              <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-slate-700">
                 <Image
                   src="/pta-logo.jpeg"
                   alt="Phantom Lake PTA Logo"
@@ -17,16 +17,16 @@ export default function Home() {
                   priority
                 />
               </div>
-              <h1 className="text-2xl font-bold text-blue-600">Phantom Lake PTA</h1>
+              <h1 className="text-2xl font-bold text-slate-700">Phantom Lake PTA</h1>
             </div>
             <div className="hidden md:flex gap-8">
-              <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition">
+              <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition">
                 Events & Programs
               </a>
-              <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition">
+              <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition">
                 Get Involved
               </a>
-              <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition">
+              <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition">
                 Resources
               </a>
             </div>
@@ -35,7 +35,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="flex-1 bg-gradient-to-br from-blue-50 to-indigo-50">
+      <section className="flex-1 bg-gradient-to-br from-slate-50 to-slate-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
@@ -52,22 +52,22 @@ export default function Home() {
               {/* Feature Cards */}
               <div className="grid grid-cols-2 gap-4 pt-4">
                 <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition">
-                  <div className="text-2xl font-bold text-blue-600 mb-2">🤝</div>
+                  <div className="text-2xl font-bold text-slate-700 mb-2">🤝</div>
                   <p className="font-semibold text-gray-900">Join as Member</p>
                   <p className="text-sm text-gray-600">Get involved in our community</p>
                 </div>
                 <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition">
-                  <div className="text-2xl font-bold text-blue-600 mb-2">🔍</div>
+                  <div className="text-2xl font-bold text-slate-700 mb-2">🔍</div>
                   <p className="font-semibold text-gray-900">Explore Resources</p>
                   <p className="text-sm text-gray-600">Find what you need</p>
                 </div>
                 <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition">
-                  <div className="text-2xl font-bold text-blue-600 mb-2">📅</div>
+                  <div className="text-2xl font-bold text-slate-700 mb-2">📅</div>
                   <p className="font-semibold text-gray-900">Events & Programs</p>
                   <p className="text-sm text-gray-600">Stay connected</p>
                 </div>
                 <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition">
-                  <div className="text-2xl font-bold text-blue-600 mb-2">💪</div>
+                  <div className="text-2xl font-bold text-slate-700 mb-2">💪</div>
                   <p className="font-semibold text-gray-900">Volunteer</p>
                   <p className="text-sm text-gray-600">Make a difference</p>
                 </div>
@@ -79,7 +79,7 @@ export default function Home() {
                   href="https://phantomlakepta.givebacks.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition shadow-md hover:shadow-lg"
+                  className="inline-flex items-center justify-center px-8 py-3 bg-slate-700 text-white font-semibold rounded-lg hover:bg-slate-800 transition shadow-md hover:shadow-lg"
                 >
                   Join Us Today
                 </a>
@@ -87,7 +87,7 @@ export default function Home() {
                   href="https://phantomlakepta.givebacks.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition"
+                  className="inline-flex items-center justify-center px-8 py-3 bg-white text-slate-700 font-semibold rounded-lg border-2 border-slate-700 hover:bg-slate-50 transition"
                 >
                   Learn More
                 </a>
@@ -96,7 +96,7 @@ export default function Home() {
 
             {/* Right Image/Illustration */}
             <div className="hidden md:block">
-              <div className="bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl p-12 h-96 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl p-12 h-96 flex items-center justify-center">
                 <div className="text-center">
                   <div className="text-6xl mb-4">👨‍👩‍👧‍👦</div>
                   <p className="text-gray-600 font-semibold">Community Powered</p>
@@ -116,7 +116,7 @@ export default function Home() {
               href="https://phantomlakepta.givebacks.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-6 border-2 border-gray-200 rounded-lg hover:border-blue-600 hover:shadow-lg transition text-center"
+              className="p-6 border-2 border-gray-200 rounded-lg hover:border-slate-700 hover:shadow-lg transition text-center"
             >
               <p className="text-4xl mb-3">📅</p>
               <h4 className="font-semibold text-gray-900 mb-2">Events & Programs</h4>
@@ -126,7 +126,7 @@ export default function Home() {
               href="https://phantomlakepta.givebacks.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-6 border-2 border-gray-200 rounded-lg hover:border-blue-600 hover:shadow-lg transition text-center"
+              className="p-6 border-2 border-gray-200 rounded-lg hover:border-slate-700 hover:shadow-lg transition text-center"
             >
               <p className="text-4xl mb-3">👥</p>
               <h4 className="font-semibold text-gray-900 mb-2">Membership</h4>
@@ -136,7 +136,7 @@ export default function Home() {
               href="https://phantomlakepta.givebacks.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-6 border-2 border-gray-200 rounded-lg hover:border-blue-600 hover:shadow-lg transition text-center"
+              className="p-6 border-2 border-gray-200 rounded-lg hover:border-slate-700 hover:shadow-lg transition text-center"
             >
               <p className="text-4xl mb-3">🙋</p>
               <h4 className="font-semibold text-gray-900 mb-2">Volunteer</h4>
@@ -146,7 +146,7 @@ export default function Home() {
               href="https://phantomlakepta.givebacks.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-6 border-2 border-gray-200 rounded-lg hover:border-blue-600 hover:shadow-lg transition text-center"
+              className="p-6 border-2 border-gray-200 rounded-lg hover:border-slate-700 hover:shadow-lg transition text-center"
             >
               <p className="text-4xl mb-3">🏪</p>
               <h4 className="font-semibold text-gray-900 mb-2">Shop</h4>
