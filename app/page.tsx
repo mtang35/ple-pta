@@ -80,27 +80,43 @@ export default function Home() {
                 </p>
               </div>
 
-              {/* Feature Cards */}
-              <div className="grid grid-cols-2 gap-4 pt-4">
-                <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition">
-                  <div className="text-2xl font-bold text-slate-700 mb-2">🤝</div>
-                  <p className="font-semibold text-gray-900">Join as Member</p>
-                  <p className="text-sm text-gray-600">Get involved in our community</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition">
-                  <div className="text-2xl font-bold text-slate-700 mb-2">🔍</div>
-                  <p className="font-semibold text-gray-900">Explore Resources</p>
-                  <p className="text-sm text-gray-600">Find what you need</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition">
-                  <div className="text-2xl font-bold text-slate-700 mb-2">📅</div>
-                  <p className="font-semibold text-gray-900">Events & Programs</p>
-                  <p className="text-sm text-gray-600">Stay connected</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition">
-                  <div className="text-2xl font-bold text-slate-700 mb-2">💪</div>
-                  <p className="font-semibold text-gray-900">Volunteer</p>
-                  <p className="text-sm text-gray-600">Make a difference</p>
+              {/* How to Support Section */}
+              <div className="space-y-6 pt-4">
+                <h3 className="text-xl font-bold text-gray-900">How can you support our kids?</h3>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  <a 
+                    href="https://phantomlakepta.givebacks.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center group"
+                  >
+                    <div className="text-3xl mb-3">🤝</div>
+                    <p className="font-semibold text-gray-900 group-hover:text-slate-700">Join</p>
+                    <p className="text-xs text-gray-600 mt-1">Become a member</p>
+                  </a>
+                  
+                  <a 
+                    href="https://phantomlakepta.givebacks.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center group"
+                  >
+                    <div className="text-3xl mb-3">🙋</div>
+                    <p className="font-semibold text-gray-900 group-hover:text-slate-700">Volunteer</p>
+                    <p className="text-xs text-gray-600 mt-1">Help make a difference</p>
+                  </a>
+                  
+                  <a 
+                    href="https://phantomlakepta.givebacks.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center group"
+                  >
+                    <div className="text-3xl mb-3">💝</div>
+                    <p className="font-semibold text-gray-900 group-hover:text-slate-700">Donate</p>
+                    <p className="text-xs text-gray-600 mt-1">Support our programs</p>
+                  </a>
                 </div>
               </div>
 
