@@ -144,6 +144,80 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Upcoming Events Section */}
+      <section className="bg-white py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-bold text-gray-900 mb-2">Upcoming Events</h3>
+            <p className="text-gray-600">Join us at our upcoming events and activities</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {/* PTA Meeting */}
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-16 h-16 bg-slate-700 rounded-lg flex items-center justify-center text-white">
+                  <span className="text-2xl">📋</span>
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">PTA Meeting</h4>
+                  <p className="text-sm text-gray-600 mb-4">Join us for our monthly PTA meeting to discuss upcoming initiatives and school updates.</p>
+                  <a
+                    href="https://phantomlakepta.givebacks.com/w/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-sm font-medium text-slate-700 hover:text-slate-900"
+                  >
+                    Learn More →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Mod Pizza Fundraiser */}
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-16 h-16 bg-slate-700 rounded-lg flex items-center justify-center text-white">
+                  <span className="text-2xl">🍕</span>
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">Mod Pizza Fundraiser</h4>
+                  <p className="text-sm text-gray-600 mb-4">Support our school while enjoying delicious pizza! A portion of proceeds goes to PTA.</p>
+                  <a
+                    href="https://phantomlakepta.givebacks.com/w/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-sm font-medium text-slate-700 hover:text-slate-900"
+                  >
+                    Learn More →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* STEM Night */}
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-16 h-16 bg-slate-700 rounded-lg flex items-center justify-center text-white">
+                  <span className="text-2xl">🔬</span>
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">STEM Night</h4>
+                  <p className="text-sm text-gray-600 mb-4">Explore science, technology, engineering, and math through hands-on activities and experiments.</p>
+                  <a
+                    href="https://phantomlakepta.givebacks.com/w/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-sm font-medium text-slate-700 hover:text-slate-900"
+                  >
+                    Learn More →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Quick Links Section */}
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
