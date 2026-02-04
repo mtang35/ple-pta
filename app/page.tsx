@@ -75,8 +75,8 @@ export default function Home() {
                 <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
                   Building Stronger Schools Together
                 </h2>
-                <p className="text-xl text-gray-600">
-                  Join the Phantom Lake PTA community. Supporting student success, family engagement, and school excellence.
+                <p className="text-base text-gray-700">
+                  We are the Phantom Lake Elementary (PLE) PTA—a nonprofit association of students, parents, staff, and community volunteers. As part of WSPTA and NPTA, we connect school, family, and community to empower kids for success.
                 </p>
               </div>
 
