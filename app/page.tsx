@@ -1,65 +1,194 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="min-h-screen flex flex-col">
+      {/* Navigation */}
+      <nav className="bg-white shadow-sm sticky top-0 z-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            <div className="flex items-center">
+              <h1 className="text-2xl font-bold text-blue-600">Phantom Lake PTA</h1>
+            </div>
+            <div className="hidden md:flex gap-8">
+              <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition">
+                Events & Programs
+              </a>
+              <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition">
+                Get Involved
+              </a>
+              <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition">
+                Resources
+              </a>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </nav>
+
+      {/* Hero Section */}
+      <section className="flex-1 bg-gradient-to-br from-blue-50 to-indigo-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div className="space-y-8">
+              <div className="space-y-4">
+                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                  Building Stronger Schools Together
+                </h2>
+                <p className="text-xl text-gray-600">
+                  Join the Phantom Lake PTA community. Supporting student success, family engagement, and school excellence.
+                </p>
+              </div>
+
+              {/* Feature Cards */}
+              <div className="grid grid-cols-2 gap-4 pt-4">
+                <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition">
+                  <div className="text-2xl font-bold text-blue-600 mb-2">🤝</div>
+                  <p className="font-semibold text-gray-900">Join as Member</p>
+                  <p className="text-sm text-gray-600">Get involved in our community</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition">
+                  <div className="text-2xl font-bold text-blue-600 mb-2">🔍</div>
+                  <p className="font-semibold text-gray-900">Explore Resources</p>
+                  <p className="text-sm text-gray-600">Find what you need</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition">
+                  <div className="text-2xl font-bold text-blue-600 mb-2">📅</div>
+                  <p className="font-semibold text-gray-900">Events & Programs</p>
+                  <p className="text-sm text-gray-600">Stay connected</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition">
+                  <div className="text-2xl font-bold text-blue-600 mb-2">💪</div>
+                  <p className="font-semibold text-gray-900">Volunteer</p>
+                  <p className="text-sm text-gray-600">Make a difference</p>
+                </div>
+              </div>
+
+              {/* Call-to-Action Buttons */}
+              <div className="flex flex-col sm:flex-row gap-4 pt-8">
+                <a
+                  href="https://phantomlakepta.givebacks.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition shadow-md hover:shadow-lg"
+                >
+                  Join Us Today
+                </a>
+                <a
+                  href="https://phantomlakepta.givebacks.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+
+            {/* Right Image/Illustration */}
+            <div className="hidden md:block">
+              <div className="bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl p-12 h-96 flex items-center justify-center">
+                <div className="text-center">
+                  <div className="text-6xl mb-4">👨‍👩‍👧‍👦</div>
+                  <p className="text-gray-600 font-semibold">Community Powered</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
+      </section>
+
+      {/* Quick Links Section */}
+      <section className="bg-white py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Quick Links</h3>
+          <div className="grid md:grid-cols-4 gap-6">
+            <a
+              href="https://phantomlakepta.givebacks.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-6 border-2 border-gray-200 rounded-lg hover:border-blue-600 hover:shadow-lg transition text-center"
+            >
+              <p className="text-4xl mb-3">📅</p>
+              <h4 className="font-semibold text-gray-900 mb-2">Events & Programs</h4>
+              <p className="text-sm text-gray-600">View upcoming activities</p>
+            </a>
+            <a
+              href="https://phantomlakepta.givebacks.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-6 border-2 border-gray-200 rounded-lg hover:border-blue-600 hover:shadow-lg transition text-center"
+            >
+              <p className="text-4xl mb-3">👥</p>
+              <h4 className="font-semibold text-gray-900 mb-2">Membership</h4>
+              <p className="text-sm text-gray-600">Become a member today</p>
+            </a>
+            <a
+              href="https://phantomlakepta.givebacks.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-6 border-2 border-gray-200 rounded-lg hover:border-blue-600 hover:shadow-lg transition text-center"
+            >
+              <p className="text-4xl mb-3">🙋</p>
+              <h4 className="font-semibold text-gray-900 mb-2">Volunteer</h4>
+              <p className="text-sm text-gray-600">Get involved and help</p>
+            </a>
+            <a
+              href="https://phantomlakepta.givebacks.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-6 border-2 border-gray-200 rounded-lg hover:border-blue-600 hover:shadow-lg transition text-center"
+            >
+              <p className="text-4xl mb-3">🏪</p>
+              <h4 className="font-semibold text-gray-900 mb-2">Shop</h4>
+              <p className="text-sm text-gray-600">Browse our store</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-gray-400 py-12">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div>
+              <h5 className="text-white font-semibold mb-4">Phantom Lake PTA</h5>
+              <p className="text-sm">Building stronger schools and communities together.</p>
+            </div>
+            <div>
+              <h5 className="text-white font-semibold mb-4">Quick Links</h5>
+              <ul className="space-y-2 text-sm">
+                <li>
+                  <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+                    Main Site
+                  </a>
+                </li>
+                <li>
+                  <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="text-white font-semibold mb-4">Support</h5>
+              <ul className="space-y-2 text-sm">
+                <li>
+                  <a href="https://support.givebacks.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+                    Help Center
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.givebacks.com/terms" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+                    Privacy & Terms
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="border-t border-gray-800 pt-8 text-center text-sm">
+            <p>&copy; 2026 Phantom Lake PTA. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
