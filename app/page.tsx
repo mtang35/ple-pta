@@ -95,7 +95,7 @@ export default function Home() {
             </div>
 
             {/* Right Image/Illustration */}
-            <div className="hidden md:block">
+            <div className="w-full">
               <div className="relative rounded-2xl overflow-hidden h-96 shadow-lg">
                 <Image
                   src="/community-hero.jpg"
