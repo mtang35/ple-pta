@@ -96,10 +96,16 @@ export default function Home() {
 
             {/* Right Image/Illustration */}
             <div className="hidden md:block">
-              <div className="bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl p-12 h-96 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">👨‍👩‍👧‍👦</div>
-                  <p className="text-gray-600 font-semibold">Community Powered</p>
+              <div className="relative rounded-2xl overflow-hidden h-96 shadow-lg">
+                <Image
+                  src="/community-hero.jpg"
+                  alt="Community Powered - Families and volunteers together"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent flex items-end justify-center p-8">
+                  <p className="text-white font-semibold text-xl">Community Powered</p>
                 </div>
               </div>
             </div>
