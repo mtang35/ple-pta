@@ -84,6 +84,18 @@ export default function Home() {
               <div className="space-y-6 pt-4">
                 <h3 className="text-xl font-bold text-gray-900">How can you support our kids?</h3>
                 
+                <div className="space-y-3 text-gray-700">
+                  <p>
+                    Our PTA programs thrive on the energy and generosity of our volunteers and donors. With over 400 families, we need your talents to enhance our community!
+                  </p>
+                  <p>
+                    When parents show up to one of the many year-round events or programs, it's only because hundreds of volunteer hours went into planning and setup.
+                  </p>
+                  <p>
+                    We all have a part to play in contributing to our community. Many opportunities to match talents & availability.
+                  </p>
+                </div>
+                
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <a 
                     href="https://phantomlakepta.givebacks.com/"
