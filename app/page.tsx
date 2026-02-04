@@ -363,7 +363,18 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div className="border-t border-gray-800 pt-8 text-center text-sm">
+          <div className="border-t border-gray-800 pt-8 text-center text-sm space-y-3">
+            <p>
+              Questions? Email us at{" "}
+              <a href="mailto:phantomlakepta@gmail.com" className="text-white hover:underline">
+                phantomlakepta@gmail.com
+              </a>
+            </p>
+            <p>
+              Phantom Lake PTA is a registered 501(c)(3) nonprofit organization.
+              <br />
+              Tax ID: 91-1080902
+            </p>
             <p>&copy; 2026 Phantom Lake PTA. All rights reserved.</p>
           </div>
         </div>
