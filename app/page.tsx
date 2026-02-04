@@ -25,13 +25,13 @@ export default function Home() {
               <h1 className="text-2xl font-bold text-slate-700">Phantom Lake PTA</h1>
             </div>
             <div className="hidden md:flex gap-8">
-              <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition">
+              <a href="https://phantomlakepta.givebacks.com/w/events-programs" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition">
                 Events & Programs
               </a>
-              <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition">
+              <a href="https://phantomlakepta.givebacks.com/w/signup" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition">
                 Get Involved
               </a>
-              <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition">
+              <a href="https://phantomlakepta.givebacks.com/w/resources" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition">
                 Resources
               </a>
             </div>
@@ -50,13 +50,13 @@ export default function Home() {
           {mobileMenuOpen && (
             <div className="md:hidden border-t border-gray-200 py-4">
               <div className="flex flex-col gap-4">
-                <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition px-2">
+                <a href="https://phantomlakepta.givebacks.com/w/events-programs" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition px-2">
                   Events & Programs
                 </a>
-                <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition px-2">
+                <a href="https://phantomlakepta.givebacks.com/w/signup" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition px-2">
                   Get Involved
                 </a>
-                <a href="https://phantomlakepta.givebacks.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition px-2">
+                <a href="https://phantomlakepta.givebacks.com/w/resources" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-slate-700 transition px-2">
                   Resources
                 </a>
               </div>
@@ -98,7 +98,7 @@ export default function Home() {
                 
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <a 
-                    href="https://phantomlakepta.givebacks.com/"
+                    href="https://phantomlakepta.givebacks.com/w/signup"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center group"
@@ -109,7 +109,7 @@ export default function Home() {
                   </a>
                   
                   <a 
-                    href="https://phantomlakepta.givebacks.com/"
+                    href="https://phantomlakepta.givebacks.com/w/volunteer"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center group"
@@ -120,7 +120,7 @@ export default function Home() {
                   </a>
                   
                   <a 
-                    href="https://phantomlakepta.givebacks.com/"
+                    href="https://phantomlakepta.givebacks.com/shop?category=33873862-7901-46f6-b887-3471f4297d9b"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center group"
@@ -199,7 +199,7 @@ export default function Home() {
                   </div>
                   <p className="text-sm text-gray-600 mb-4">Join us for our monthly PTA meeting to discuss upcoming initiatives and school updates.</p>
                   <a
-                    href="https://phantomlakepta.givebacks.com/w/"
+                    href="https://phantomlakepta.givebacks.com/w/events-programs"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-sm font-medium text-slate-700 hover:text-slate-900"
@@ -231,7 +231,7 @@ export default function Home() {
                   </div>
                   <p className="text-sm text-gray-600 mb-4">Support our school while enjoying delicious pizza! A portion of proceeds goes to PTA.</p>
                   <a
-                    href="https://phantomlakepta.givebacks.com/w/"
+                    href="https://phantomlakepta.givebacks.com/w/events-programs"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-sm font-medium text-slate-700 hover:text-slate-900"
@@ -261,7 +261,7 @@ export default function Home() {
                   </div>
                   <p className="text-sm text-gray-600 mb-4">Explore science, technology, engineering, art, and math through hands-on activities. Register your child before the March 6 deadline.</p>
                   <a
-                    href="https://phantomlakepta.givebacks.com/w/"
+                    href="https://phantomlakepta.givebacks.com/w/events-programs"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-sm font-medium text-slate-700 hover:text-slate-900"
@@ -281,7 +281,7 @@ export default function Home() {
           <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Quick Links</h3>
           <div className="grid md:grid-cols-4 gap-6">
             <a
-              href="https://phantomlakepta.givebacks.com/"
+              href="https://phantomlakepta.givebacks.com/w/events-programs"
               target="_blank"
               rel="noopener noreferrer"
               className="p-6 border-2 border-gray-200 rounded-lg hover:border-slate-700 hover:shadow-lg transition text-center"
@@ -291,7 +291,7 @@ export default function Home() {
               <p className="text-sm text-gray-600">View upcoming activities</p>
             </a>
             <a
-              href="https://phantomlakepta.givebacks.com/"
+              href="https://phantomlakepta.givebacks.com/w/signup"
               target="_blank"
               rel="noopener noreferrer"
               className="p-6 border-2 border-gray-200 rounded-lg hover:border-slate-700 hover:shadow-lg transition text-center"
@@ -301,7 +301,7 @@ export default function Home() {
               <p className="text-sm text-gray-600">Become a member today</p>
             </a>
             <a
-              href="https://phantomlakepta.givebacks.com/"
+              href="https://phantomlakepta.givebacks.com/w/volunteer"
               target="_blank"
               rel="noopener noreferrer"
               className="p-6 border-2 border-gray-200 rounded-lg hover:border-slate-700 hover:shadow-lg transition text-center"
@@ -311,7 +311,7 @@ export default function Home() {
               <p className="text-sm text-gray-600">Get involved and help</p>
             </a>
             <a
-              href="https://phantomlakepta.givebacks.com/"
+              href="https://phantomlakepta.givebacks.com/shop?category=33873862-7901-46f6-b887-3471f4297d9b"
               target="_blank"
               rel="noopener noreferrer"
               className="p-6 border-2 border-gray-200 rounded-lg hover:border-slate-700 hover:shadow-lg transition text-center"
