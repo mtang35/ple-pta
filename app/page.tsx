@@ -76,7 +76,25 @@ export default function Home() {
                   Building Stronger Schools Together
                 </h2>
                 <p className="text-base text-gray-700">
-                  We are the Phantom Lake Elementary (PLE) PTA—a nonprofit association of students, parents, staff, and community volunteers. As part of WSPTA and NPTA, we connect school, family, and community to empower kids for success.
+                  We are the Phantom Lake Elementary (PLE) PTA—a nonprofit association of students, parents, staff, and community volunteers. As part of WSPTA and NPTA, we connect school, family, and community to empower kids for success.{" "}
+                  <a 
+                    href="https://www.dropbox.com/scl/fi/r8daht9xe5bi5cf3kj4va/PTA-Mission-and-Goals-20152016-_approved-Oct_.pdf?rlkey=81t70i8scrv7brhovsc7dkhmh&e=1&dl=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-700 hover:text-slate-900 underline font-medium"
+                  >
+                    Learn about our Mission & Goals
+                  </a>
+                  {" "}and{" "}
+                  <a 
+                    href="https://www.dropbox.com/scl/fi/m39h8bd6p6ekyzx2a53lb/Standing-Rules-2023-24.pdf?rlkey=72tv2vsstlnl0q98dq4jdk4ne&e=1&dl=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-700 hover:text-slate-900 underline font-medium"
+                  >
+                    Standing Rules
+                  </a>
+                  .
                 </p>
               </div>
 
