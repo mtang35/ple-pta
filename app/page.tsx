@@ -155,8 +155,13 @@ export default function Home() {
             {/* PTA Meeting */}
             <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl p-6 shadow-sm hover:shadow-md transition">
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-16 h-16 bg-slate-700 rounded-lg flex items-center justify-center text-white">
-                  <span className="text-2xl">📋</span>
+                <div className="flex-shrink-0 w-16 h-16 relative rounded-lg overflow-hidden">
+                  <Image
+                    src="/pta-event-icon.jpg"
+                    alt="PTA Meeting"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex-1">
                   <h4 className="text-lg font-semibold text-gray-900 mb-2">PTA Meeting</h4>
@@ -176,8 +181,13 @@ export default function Home() {
             {/* Mod Pizza Fundraiser */}
             <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl p-6 shadow-sm hover:shadow-md transition">
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-16 h-16 bg-slate-700 rounded-lg flex items-center justify-center text-white">
-                  <span className="text-2xl">🍕</span>
+                <div className="flex-shrink-0 w-16 h-16 relative rounded-lg overflow-hidden">
+                  <Image
+                    src="/mod-event-icon.jpg"
+                    alt="Mod Pizza Fundraiser"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex-1">
                   <h4 className="text-lg font-semibold text-gray-900 mb-2">Mod Pizza Fundraiser</h4>
@@ -197,8 +207,13 @@ export default function Home() {
             {/* STEM Night */}
             <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl p-6 shadow-sm hover:shadow-md transition">
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-16 h-16 bg-slate-700 rounded-lg flex items-center justify-center text-white">
-                  <span className="text-2xl">🔬</span>
+                <div className="flex-shrink-0 w-16 h-16 relative rounded-lg overflow-hidden">
+                  <Image
+                    src="/steam-event-icon.jpg"
+                    alt="STEM Night"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex-1">
                   <h4 className="text-lg font-semibold text-gray-900 mb-2">STEM Night</h4>
