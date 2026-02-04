@@ -164,7 +164,11 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-2">PTA Meeting</h4>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">PTA Meeting (General)</h4>
+                  <div className="space-y-1 mb-3">
+                    <p className="text-sm text-slate-700 font-medium">📅 Feb 2 | 6:30pm - 8:30pm</p>
+                    <p className="text-sm text-slate-700">📍 Phantom Lake Elementary - Library</p>
+                  </div>
                   <p className="text-sm text-gray-600 mb-4">Join us for our monthly PTA meeting to discuss upcoming initiatives and school updates.</p>
                   <a
                     href="https://phantomlakepta.givebacks.com/w/"
@@ -190,7 +194,13 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-2">Mod Pizza Fundraiser</h4>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">Fundraiser - MOD Pizza</h4>
+                  <div className="space-y-1 mb-3">
+                    <p className="text-sm text-slate-700 font-medium">📅 Feb 26 | 10:30am - 11:00pm</p>
+                    <p className="text-sm text-slate-700">📍 MOD Pizza Locations:</p>
+                    <p className="text-xs text-slate-600 ml-4">14309 NE 20th St, Bellevue, WA</p>
+                    <p className="text-xs text-slate-600 ml-4">3622 Factoria Blvd SE, Bellevue, WA</p>
+                  </div>
                   <p className="text-sm text-gray-600 mb-4">Support our school while enjoying delicious pizza! A portion of proceeds goes to PTA.</p>
                   <a
                     href="https://phantomlakepta.givebacks.com/w/"
@@ -216,8 +226,12 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-2">STEM Night</h4>
-                  <p className="text-sm text-gray-600 mb-4">Explore science, technology, engineering, and math through hands-on activities and experiments.</p>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">STEAM Night</h4>
+                  <div className="space-y-1 mb-3">
+                    <p className="text-sm text-slate-700 font-medium">📅 Mar 30 | 6:30pm - 8:30pm</p>
+                    <p className="text-sm text-slate-700">📍 Phantom Lake Elementary - Gym</p>
+                  </div>
+                  <p className="text-sm text-gray-600 mb-4">Explore science, technology, engineering, art, and math through hands-on activities. Register your child before the March 6 deadline.</p>
                   <a
                     href="https://phantomlakepta.givebacks.com/w/"
                     target="_blank"
