@@ -153,7 +153,7 @@ export default function Home() {
               {/* Call-to-Action Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-8">
                 <a
-                  href="https://phantomlakepta.givebacks.com/"
+                  href="https://phantomlakepta.givebacks.com/w/signup"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 py-3 bg-slate-700 text-white font-semibold rounded-lg hover:bg-slate-800 transition shadow-md hover:shadow-lg"
